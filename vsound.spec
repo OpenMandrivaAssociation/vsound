@@ -12,6 +12,7 @@ BuildRequires:	sox
 BuildRequires:	autoconf2.5
 BuildRequires:	automake1.7
 BuildRequires:	libtool
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 VSound is sort of like a 'virtual audio loopback cable'. That is, it allows
