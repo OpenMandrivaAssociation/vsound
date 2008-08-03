@@ -1,7 +1,7 @@
 Summary:	Virtual loopback cable for audio
 Name:		vsound
 Version:	0.6
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPL
 Group:		Sound
 URL:		http://www.vsound.org/
