@@ -1,7 +1,7 @@
 Summary:	Virtual loopback cable for audio
 Name:		vsound
 Version:	0.6
-Release:	%mkrel 7
+Release:	%mkrel 8
 License:	GPL
 Group:		Sound
 URL:		http://www.vsound.org/
@@ -10,7 +10,7 @@ Patch0:		vsound_0.6-4.diff
 Requires:	sox
 BuildRequires:	sox
 BuildRequires:	autoconf2.5
-BuildRequires:	automake1.7
+BuildRequires:	automake
 BuildRequires:	libtool
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
@@ -29,7 +29,7 @@ WAV file converter.
 
 %build
 rm -rf autom4te.cache configure
-libtoolize --force --copy; aclocal-1.7 -I .; automake-1.7 --add-missing --copy --gnu; autoheader; autoconf
+libtoolize --force --copy; aclocal -I .; automake --add-missing --copy --gnu; autoheader; autoconf
 
 %configure2_5x \
     --disable-static \
