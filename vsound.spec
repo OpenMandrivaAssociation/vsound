@@ -61,3 +61,61 @@ rm -f %{buildroot}%{_libdir}/vsound/*.a
 %{_libdir}/%{name}
 %{_mandir}/man1/%{name}.1*
 
+
+
+%changelog
+* Mon Jan 03 2011 Oden Eriksson <oeriksson@mandriva.com> 0.6-8mdv2011.0
++ Revision: 627840
+- don't force the usage of automake1.7
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 0.6-7mdv2010.0
++ Revision: 434691
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 0.6-6mdv2009.0
++ Revision: 261891
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 0.6-5mdv2009.0
++ Revision: 255688
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.6-3mdv2008.1
++ Revision: 136571
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import vsound
+
+
+* Thu Jun 22 2006 Oden Eriksson <oeriksson@mandriva.com> 0.6-3mdv2007.0
+- make it build
+- added P1 (debian)
+
+* Tue Feb 01 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 0.6-2mdk
+- make it work
+
+* Mon Dec 20 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.6-1mdk
+- 0.6
+
+* Tue Dec 16 2003 Lenny Cartier <lenny@mandrakesoft.com> 0.5-5mdk
+- requires sox (Bug 6079)
+- fix changelog
+
+* Thu Jan 23 2003 Lenny Cartier <lenny@mandrakesoft.com> 0.5-4mdk
+- rebuild
+
+* Thu Jun 27 2002 Lenny Cartier <lenny@mandrakesoft.com> 0.5-3mdk
+- buildrequires on sox
+
+* Thu Sep 06 2001 Etienne Faure <etienne@mandrakesoft.com> 0.5-2mdk
+- rebuild
+
+* Thu Feb 15 2001 Lenny Cartier <lenny@mandrakesoft.com> 0.5-1mdk
+- updated 0.5
+
+* Mon Dec 04 2000 Lenny Cartier <lenny@mandrakesoft.com> 0.4-1mdk
+- new in contribs
+- used srpm from rufus t firefly <rufus.t.firefly@linux-mandrake.com> :
+   - v0.4-1mdk (initial packaging)
