@@ -1,2 +1,4 @@
+removed_sources:
+  vsound-0.6.tar.bz2: db846882adb0d9c7a7e6e44c177966bae56881ca
 sources:
-  "vsound-0.6.tar.bz2": db846882adb0d9c7a7e6e44c177966bae56881ca
+  vsound-0.6.tar.gz: 09ecea581546e6fb18427cde9c03b875f83eed80
