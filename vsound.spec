@@ -4,7 +4,7 @@ Version:	0.6
 Release:	10
 License:	GPL
 Group:		Sound
-URL:		http://www.vsound.org/
+URL:		https://www.vsound.org/
 Source0:	http://www.vsound.org/%{name}-%{version}.tar.gz
 Patch0:		vsound_0.6-4.diff
 Requires:	sox
